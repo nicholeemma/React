@@ -9,9 +9,16 @@ import Hello from './Components/Hello.js';
 function App() {
   return (
     <div className="App">
-      {/* <Greet />
-      <Welcome /> */}
-      <Hello />
+       <Greet name = "Bruce" heroname = "spider">
+         <p>This is children prop</p> </Greet>
+       <Greet name = "clart" heroname = "bat">
+         <button>Action</button>
+         </Greet>
+       <Greet name = "hah" heroname = "super"/>
+      <Welcome name = "hah" heroname = "bat"/> 
+      <Welcome name = "clark" heroname = "sup"/> 
+      <Welcome name = "brute" heroname = "superman"/> 
+      <Hello /> 
     </div>
   );
 }

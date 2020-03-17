@@ -20,7 +20,7 @@ class Counter extends Component {
         // // called before set  asychoronized statement 
         console.log(this.state.count)
         
-        this.setState(preState, props => ({
+        this.setState((preState, props) => ({
             count:preState.count + 1
         }))
         console.log(this.state.count)

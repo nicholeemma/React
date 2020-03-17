@@ -5,11 +5,12 @@ import Greet from './Components/Greet.js';
 import Welcome from './Components/Welcome.js';
 import Hello from './Components/Hello.js';
 import Messages from './Components/Messages.js';
-
+import Counter from './Components/Counter.js';
 
 function App() {
   return (
     <div className="App">
+      <Counter></Counter>
        {/* <Greet name = "Bruce" heroname = "spider">
          <p>This is children prop</p> </Greet>
        <Greet name = "clart" heroname = "bat">
@@ -20,7 +21,7 @@ function App() {
       <Welcome name = "clark" heroname = "sup"/> 
       <Welcome name = "brute" heroname = "superman"/> 
       <Hello />  */}
-      <Messages></Messages>
+      {/* <Messages></Messages> */}
     </div>
   );
 }

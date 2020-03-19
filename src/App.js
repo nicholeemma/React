@@ -6,12 +6,16 @@ import Welcome from './Components/Welcome.js';
 import Hello from './Components/Hello.js';
 import Messages from './Components/Messages.js';
 import Counter from './Components/Counter.js';
+import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
 
 function App() {
   return (
     <div className="App">
+      <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick>
       {/* <Counter></Counter> */}
-       <Greet name = "Bruce" heroname = "spider">
+       {/* <Greet name = "Bruce" heroname = "spider">
          <p>This is children prop</p> </Greet>
        <Greet name = "clart" heroname = "bat">
          <button>Action</button>
@@ -19,7 +23,7 @@ function App() {
        <Greet name = "hah" heroname = "super"/>
       <Welcome name = "hah" heroname = "bat"/> 
       <Welcome name = "clark" heroname = "sup"/> 
-      <Welcome name = "brute" heroname = "superman"/> 
+      <Welcome name = "brute" heroname = "superman"/>  */}
       {/* <Hello />  
       <Messages></Messages> */}
     </div>

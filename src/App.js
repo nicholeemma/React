@@ -8,12 +8,14 @@ import Messages from './Components/Messages.js';
 import Counter from './Components/Counter.js';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 function App() {
   return (
     <div className="App">
       <FunctionClick></FunctionClick>
       <ClassClick></ClassClick>
+      <EventBind></EventBind>
       {/* <Counter></Counter> */}
        {/* <Greet name = "Bruce" heroname = "spider">
          <p>This is children prop</p> </Greet>

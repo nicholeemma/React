@@ -9,13 +9,14 @@ import Counter from './Components/Counter.js';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick></FunctionClick>
+      {/* <FunctionClick></FunctionClick>
       <ClassClick></ClassClick>
-      <EventBind></EventBind>
+      <EventBind></EventBind> */}
       {/* <Counter></Counter> */}
        {/* <Greet name = "Bruce" heroname = "spider">
          <p>This is children prop</p> </Greet>
@@ -28,6 +29,7 @@ function App() {
       <Welcome name = "brute" heroname = "superman"/>  */}
       {/* <Hello />  
       <Messages></Messages> */}
+      <ParentComponent></ParentComponent>
     </div>
   );
 }

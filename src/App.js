@@ -10,6 +10,8 @@ import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
+import UserGreeting from './Components/UserGreeting';
+import NameList from './Components/NameList';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       <Welcome name = "brute" heroname = "superman"/>  */}
       {/* <Hello />  
       <Messages></Messages> */}
-      <ParentComponent></ParentComponent>
+      {/* <ParentComponent></ParentComponent> */}
+    {/* <UserGreeting></UserGreeting> */}
+      <NameList></NameList>
     </div>
   );
 }

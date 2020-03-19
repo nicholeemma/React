@@ -10,8 +10,8 @@ import Counter from './Components/Counter.js';
 function App() {
   return (
     <div className="App">
-      <Counter></Counter>
-       {/* <Greet name = "Bruce" heroname = "spider">
+      {/* <Counter></Counter> */}
+       <Greet name = "Bruce" heroname = "spider">
          <p>This is children prop</p> </Greet>
        <Greet name = "clart" heroname = "bat">
          <button>Action</button>
@@ -20,8 +20,8 @@ function App() {
       <Welcome name = "hah" heroname = "bat"/> 
       <Welcome name = "clark" heroname = "sup"/> 
       <Welcome name = "brute" heroname = "superman"/> 
-      <Hello />  */}
-      {/* <Messages></Messages> */}
+      {/* <Hello />  
+      <Messages></Messages> */}
     </div>
   );
 }

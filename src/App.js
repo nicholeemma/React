@@ -17,6 +17,11 @@ import Inline from './Components/Inline';
 import './Components/appStyle.css';
 import styles from './Components/appStyle.module.css';
 import Form from './Components/Form';
+import LifeCycleA from './Components/LifeCycleA';
+import FragmentDemo from './Components/FragmentDemo';
+import Table from './Components/Table';
+import pureCompo from './Components/pureCompo';
+import ParentComp from './Components/ParentComp';
 function App() {
   return (
     <div className="App">
@@ -43,6 +48,13 @@ function App() {
     <h1 className='error'>eroor</h1>
     <h1 className={styles.sucess}>success</h1> */}
     <Form></Form>
+    <LifeCycleA></LifeCycleA>
+    {/* <frameElement></frameElement> */}
+    <FragmentDemo></FragmentDemo>
+    
+    <Table></Table>
+    {/* <pureCompo></pureCompo> */}
+    <ParentComp></ParentComp>
     </div>
   );
 }

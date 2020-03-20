@@ -23,6 +23,7 @@ import Table from './Components/Table';
 import pureCompo from './Components/PureCompo';
 import ParentComp from './Components/ParentComp';
 import RefDemo from './Components/RefDemo';
+import FocusInput from './Components/FocusInput';
 function App() {
   return (
     <div className="App">
@@ -56,7 +57,8 @@ function App() {
     {/* <Table></Table> */}
     {/* <pureCompo></pureCompo> */}
     {/* <ParentComp></ParentComp> */}
-   <RefDemo></RefDemo>
+   {/* <RefDemo></RefDemo> */}
+    <FocusInput></FocusInput>
     </div>
   );
 }

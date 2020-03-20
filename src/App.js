@@ -20,8 +20,9 @@ import Form from './Components/Form';
 import LifeCycleA from './Components/LifeCycleA';
 import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
-import pureCompo from './Components/pureCompo';
+import pureCompo from './Components/PureCompo';
 import ParentComp from './Components/ParentComp';
+import RefDemo from './Components/RefDemo';
 function App() {
   return (
     <div className="App">
@@ -47,14 +48,15 @@ function App() {
     <Inline></Inline>
     <h1 className='error'>eroor</h1>
     <h1 className={styles.sucess}>success</h1> */}
-    <Form></Form>
-    <LifeCycleA></LifeCycleA>
+    {/* <Form></Form>
+    <LifeCycleA></LifeCycleA> */}
     {/* <frameElement></frameElement> */}
-    <FragmentDemo></FragmentDemo>
+    {/* <FragmentDemo></FragmentDemo> */}
     
-    <Table></Table>
+    {/* <Table></Table> */}
     {/* <pureCompo></pureCompo> */}
-    <ParentComp></ParentComp>
+    {/* <ParentComp></ParentComp> */}
+   <RefDemo></RefDemo>
     </div>
   );
 }

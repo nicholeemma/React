@@ -8,5 +8,6 @@ function MemoCop({name}) {
         </div>
     )
 }
-
-export default MemoCop
+//prevent rerendering
+//higher order component
+export default React.memo(MemoCop)

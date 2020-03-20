@@ -16,6 +16,7 @@ import StyleSheet from './Components/StyleSheet';
 import Inline from './Components/Inline';
 import './Components/appStyle.css';
 import styles from './Components/appStyle.module.css';
+import Form from './Components/Form';
 function App() {
   return (
     <div className="App">
@@ -37,10 +38,11 @@ function App() {
       {/* <ParentComponent></ParentComponent> */}
     {/* <UserGreeting></UserGreeting> */}
       {/* <NameList></NameList> */}
-    <StyleSheet primary ={false}></StyleSheet>
+    {/* <StyleSheet primary ={false}></StyleSheet>
     <Inline></Inline>
     <h1 className='error'>eroor</h1>
-    <h1 className={styles.sucess}>success</h1>
+    <h1 className={styles.sucess}>success</h1> */}
+    <Form></Form>
     </div>
   );
 }
